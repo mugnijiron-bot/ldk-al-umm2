@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LDK Al Umm — Universitas Muhammadiyah Sukabumi</title>
+  <meta name="description" content="Lembaga Dakwah Kampus Al Umm UMMI Sukabumi — Sistem Informasi Manajemen Organisasi">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕌</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <div style="display:flex;align-items:center;justify-content:center;min-height:100vh;flex-direction:column;gap:16px">
+      <div style="font-size:3rem">🕌</div>
+      <div style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;color:#1a6b45">Memuat LDK Al Umm...</div>
+    </div>
+  </div>
+  <script src="js/db.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    // Boot
+    document.addEventListener('DOMContentLoaded', () => {
+      App.init();
+    });
+
+    // Close modal on overlay click
+    document.addEventListener('click', function(e) {
+      if (e.target.id === 'modalOverlay') UI.closeModal();
+    });
+  </script>
+</body>
+</html>
