@@ -1,4 +1,4 @@
-# 🕌 LDK Al Umm — Sistem Informasi Manajemen Organisasi
+# LDK Al Umm — Sistem Informasi Manajemen Organisasi
 
 **Lembaga Dakwah Kampus Al Umm**  
 Universitas Muhammadiyah Sukabumi (UMMI)
@@ -8,20 +8,6 @@ Universitas Muhammadiyah Sukabumi (UMMI)
 ## 📋 Tentang Aplikasi
 
 Aplikasi web manajemen organisasi untuk LDK Al Umm UMMI Sukabumi. Dibangun menggunakan **HTML, CSS, dan JavaScript murni** (tanpa framework/library tambahan) dengan penyimpanan data berbasis `localStorage` browser.
-
----
-
-## 🚀 Cara Menjalankan
-
-### Langkah 1 — Ekstrak File
-Ekstrak file ZIP ke folder pilihan Anda.
-
-### Langkah 2 — Buka Aplikasi
-Cukup buka file `index.html` di browser modern (Chrome, Firefox, Edge, Safari).
-
-> ⚠️ **Catatan:** Karena menggunakan `localStorage`, data tersimpan di browser lokal. Tidak perlu instalasi server, database, atau dependency apapun.
-
----
 
 ## 🔑 Akun Default
 
@@ -151,15 +137,4 @@ Aplikasi mendukung tampilan:
 
 ---
 
-## 👨‍💻 Pengembangan Lanjutan
-
-Untuk mengembangkan ke production dengan backend nyata:
-1. Ganti `DB` object dengan API calls ke server (Laravel/Node.js)
-2. Implementasikan JWT/session server-side
-3. Gunakan MySQL/PostgreSQL untuk database
-4. Deploy ke server hosting
-
----
-
-*Dibuat dengan ❤️ untuk LDK Al Umm UMMI Sukabumi*  
 *بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ*
